@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeActivity">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+
+
+            android:layout_height="wrap_content"
+
+
+            android:layout_marginBottom="269dp"
+        android:fontFamily="sans-serif"
+        android:text="مرحبا بك ،تم تسجيل دخولك بنجاح"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+        <Button
+
+        android:id="@+id/uploadvideomain"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textView2"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="-253dp"
+        android:background="@drawable/button"
+        android:foreground="?android:attr/selectableItemBackground"
+
+        android:text="تحميل فيديو"
+        android:textAllCaps="false"
+        android:textColor="#ffffff"
+        android:textSize="17sp"
+    />
+
+    <Button
+        android:id="@+id/logout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/uploadvideomain"
+        android:layout_marginBottom="-175dp"
+        android:background="@drawable/button"
+
+        android:foreground="?android:attr/selectableItemBackground"
+        android:text="تسجيل الخروج"
+        android:textAllCaps="false"
+        android:textColor="#ffffff"
+        android:textSize="17sp" />
+
+
+</RelativeLayout>
