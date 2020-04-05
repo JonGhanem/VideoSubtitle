@@ -1,28 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
-    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".HomeActivity">
 
-        <TextView
-            android:id="@+id/textView2"
-            android:layout_width="match_parent"
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
 
 
-            android:layout_height="wrap_content"
+        android:layout_height="wrap_content"
 
 
-            android:layout_marginBottom="269dp"
+        android:layout_marginBottom="269dp"
         android:fontFamily="sans-serif"
-        android:text="مرحبا بك ،تم تسجيل دخولك بنجاح"
+        android:gravity="center_horizontal"
+        android:text="@string/wlecome_message"
         android:textAlignment="center"
         android:textColor="#000000"
         android:textSize="30sp"
         android:textStyle="bold" />
 
-        <Button
+    <Button
 
         android:id="@+id/uploadvideomain"
         android:layout_width="match_parent"
@@ -32,12 +32,11 @@
         android:layout_marginBottom="-253dp"
         android:background="@drawable/button"
         android:foreground="?android:attr/selectableItemBackground"
-
-        android:text="تحميل فيديو"
+        android:onClick="uplodVideo"
+        android:text="@string/upload_activity_title"
         android:textAllCaps="false"
         android:textColor="#ffffff"
-        android:textSize="17sp"
-    />
+        android:textSize="17sp" />
 
     <Button
         android:id="@+id/logout"
@@ -48,7 +47,7 @@
         android:background="@drawable/button"
 
         android:foreground="?android:attr/selectableItemBackground"
-        android:text="تسجيل الخروج"
+        android:text="@string/logout"
         android:textAllCaps="false"
         android:textColor="#ffffff"
         android:textSize="17sp" />

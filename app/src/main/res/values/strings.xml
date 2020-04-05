@@ -1,5 +1,10 @@
 <resources>
     <string name="app_name">Login Registration</string>
+    <string name="firebase_uploading">تحميل</string>
+    <string name="select_video">اختيار الفيديو</string>
+    <string name="upload_activity_title">تحميل الفيديو</string>
+    <string name="logout">تسجيل الخروج</string>
+    <string name="wlecome_message">مرحبا بك ،تم تسجيل دخولك بنجاح</string>
 
     <string-array name="country_arrays">
         <item>Choose Country</item>
